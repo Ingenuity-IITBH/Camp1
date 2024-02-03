@@ -165,3 +165,8 @@ long long int floorSqrt(long long int x)
     return ans;
 }
 ```
+## Session 2: Dynamic Programming - I
+### Presented by: Prathmesh Ingle and Akash Deep
+
+## Session 3: Dynamic Programming - II
+### Presented by: Prathmesh Ingle and Akash Deep
