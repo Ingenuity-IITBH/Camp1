@@ -2,6 +2,10 @@
 
 We will be sharing the cpp files covered during the PPTs here
 
+## Session 1: Binary Search
+### Presented by: Anshu Kumar and Akshay Wairagade
+
+The below cpp snippet consists of the codes covered in the PPT along with the problems from Geeksforgeeks.
 ```cpp
 // upper bound
 
