@@ -168,5 +168,33 @@ long long int floorSqrt(long long int x)
 ## Session 2: Dynamic Programming - I
 ### Presented by: Prathmesh Ingle and Akash Deep
 
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+map<int, int> dp;
+int cntr;
+int fib(int n) {
+    cntr++;
+    if(dp.find(n) != dp.end()) {
+        return dp[n];
+    }
+    if(n == 1 || n == 2) {
+        return 1;
+    } else {
+        return dp[n] = fib(n - 1) + fib(n - 2);
+    }
+}
+// 1664079      57
+int main() {
+    cntr = 0;
+    cout << fib(30) << " ";
+    cout << cntr << endl;
+
+    return 0;
+}
+
+Fibonacci Sequence
+```
+
 ## Session 3: Dynamic Programming - II
 ### Presented by: Prathmesh Ingle and Akash Deep
