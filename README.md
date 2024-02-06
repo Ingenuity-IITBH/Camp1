@@ -196,6 +196,7 @@ int main() {
     return 0;
 }
 
+// minimum number of ways to reach 0, by subtracting a digit of a number.
 #include<bits/stdc++.h>
 using namespace std;
 
