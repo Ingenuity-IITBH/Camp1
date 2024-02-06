@@ -195,6 +195,43 @@ int main() {
 
     return 0;
 }
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int dp[100010];
+int foo(int n) {
+
+    // if(dp[n] != -1)
+    //     return dp[n];
+
+    if(n == 0)
+        return 0;
+    if(n < 10) {
+        return 1;
+    }
+
+    int ans = INT_MAX;
+    int temp = n;
+    while(temp != 0) {
+        if(temp % 10 == 0) {
+            temp /= 10;
+            continue;
+        } else {
+            ans = min(ans, 1 + foo(n - temp % 10));
+        }
+        temp /= 10;
+    }
+
+    return dp[n] = ans;
+}
+
+int main() {
+    memset(dp, -1, sizeof dp);
+    cout << foo(2200);
+
+    return 0;
+}
 ```
 
 ## Session 3: Dynamic Programming - II
