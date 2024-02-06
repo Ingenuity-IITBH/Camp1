@@ -199,3 +199,18 @@ int main() {
 
 ## Session 3: Dynamic Programming - II
 ### Presented by: Prathmesh Ingle and Akash Deep
+
+This session was Problem Specific.
+
+The problems solved are:
+
+1. https://www.geeksforgeeks.org/problems/find-optimum-operation4504/1
+2. https://www.geeksforgeeks.org/problems/max-rope-cutting1312/1
+3. https://www.geeksforgeeks.org/problems/rod-cutting0840/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+4. https://www.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1
+5. https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+6. https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1
+7. https://www.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1
+8. https://www.geeksforgeeks.org/problems/jump-game/1
+9. https://codeforces.com/contest/1881/problem/E
+10. https://codeforces.com/contest/1842/problem/C
